@@ -3,7 +3,7 @@ import Footer from '/src/components/Footer/index';
 import { Container } from '@chakra-ui/react';
 import ops from '../imagem/pagenotfound.jpg'
 
-function Transmissao() {
+function PageNotFound() {
   return (
     <>
       <Nav />
@@ -21,4 +21,4 @@ function Transmissao() {
   );
 }
 
-export default Transmissao;
+export default PageNotFound;

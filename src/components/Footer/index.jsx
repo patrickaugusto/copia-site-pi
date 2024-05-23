@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Footer() {
   return (
     <footer className={'footer ${colorMode === "light" ? "bg-light" : "bg-dark"}'}>
@@ -7,7 +9,9 @@ function Footer() {
             <div className="col-xs-12 col-xl-6 order-2 order-xl-1">
               <ul className="nav justify-content-center m-0">
                 <li className="">
-                  <a className="nav-link text-dark px-2 px-md-3" href="#!">Integrantes</a>
+                  <Link className="nav-link text-dark px-2 px-md-3" to="/integrantes">
+                    Integrantes
+                  </Link>
                 </li>
                 <li className="">
                   <a className="nav-link text-dark px-2 px-md-3" href="#!">Termos</a>
