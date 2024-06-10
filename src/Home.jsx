@@ -1,13 +1,16 @@
-import Nav from './components/Nav/index'
-import Footer from './components/Footer/index'
+import React from 'react';
+import Nav from './components/Nav/index';
+import Footer from './components/Footer/index';
 import './style.css';
 import Card from './components/Cards';
-import imgblack from '/src/imagem/black-square.png'
-import imggreen from '/src/imagem/green-square.png'
-import imgred from '/src/imagem/red-square.png'
-import imgastronauta from "/src/imagem/astronaut.png"
-import imginicio from '/src/imagem/img-inicio.png'
-
+import imgblack from '/src/imagem/black-square.png';
+import imggreen from '/src/imagem/green-square.png';
+import imgred from '/src/imagem/red-square.png';
+import imgastronauta from '/src/imagem/astronaut.png';
+import imginicio from '/src/imagem/img-inicio.png';
+import embarquedigital from '/src/imagem/embarquedigital.jpeg'; 
+import pcaluno from '/src/imagem/pcaluno.png'
+import professoralunos from '/src/imagem/professoralunos.png'
 
 function Home() {
   return (
@@ -21,13 +24,13 @@ function Home() {
         </ol>
         <div className="carousel-inner" style={{ height: 'auto', maxHeight: '500px', marginBottom: '80px' }}>
           <div className="carousel-item active">
-            <img className="d-block w-100 h-100" src={imgblack} alt="First slide" />
+            <img className="d-block w-100 h-100" src={embarquedigital} alt="First slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100 h-100" src={imggreen} alt="Second slide" />
+            <img className="d-block w-100 h-100" src={professoralunos} alt="Second slide" />
           </div>
           <div className="carousel-item">
-            <img className="d-block w-100 h-100" src={imgred} alt="Third slide" />
+            <img className="d-block w-100 h-100" src={pcaluno} alt="Third slide" />
           </div>
         </div>
         <a className="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -47,7 +50,7 @@ function Home() {
               <p className='h2'>Explore o <span className=''>Embarque Digital</span> e descubra uma oportunidade única de avançar em sua carreira no mundo da tecnologia</p>
             </div>
             <div className="col-lg-6">
-              <img className="d-block w-100 h-auto" src={imginicio} alt="First slide" />
+              <img className="d-block w-100 h-auto" src={imginicio} alt="Inicio" />
             </div>
           </div>
         </div>
@@ -57,19 +60,16 @@ function Home() {
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-6">
-              <img className="d-block w-100 h-auto" src={imgastronauta} alt="First slide" />
+              <img className="d-block w-100 h-auto" src={imgastronauta} alt="Astronauta" />
             </div>
 
             <div className="col-lg-6">
               <h1 className='text-primary pt-5 pb-5'>+ Oportunidades</h1>
               <p className='text-break lead'>
-                Mussum Ipsum, cacilds vidis litro abertis.  Casamentiss faiz malandris se pirulitá. Tá deprimidis, eu conheço uma cachacis que pode alegrar sua vidis. Pra lá, depois divoltis porris, paradis. Paisis, filhis, espiritis santis.
+              Para maximizar a visibilidade e as oportunidades dos estudantes do Embarque Digital, o site Embarque Emprega foi criado como uma plataforma que os conecta com o mercado de trabalho. Cada estudante tem um perfil detalhado que destaca suas informações pessoais, acadêmicas e projetos em andamento, oferecendo aos empregadores uma visão de suas competências e realizações.
               </p>
               <p className='text-break lead'>
-                Casamentiss faiz malandris se pirulitá. Todo mundo vê os porris que eu tomo, mas ninguém vê os tombis que eu levo! Si num tem leite então bota uma pinga aí cumpadi! Não sou faixa preta cumpadi, sou preto inteiris, inteiris
-              </p>
-              <p className='text-break lead'>
-                Cevadis im ampola pa arma uma pindureta. Quem manda na minha terra sou euzis! Em pé sem cair, deitado sem dormir, sentado sem cochilar e fazendo pose. Quem num gosta di mim que vai caçá sua turmis!
+              O site também promove eventos e atividades relacionados ao Embarque Digital, mantendo a comunidade informada sobre workshops, palestras entre outros. A seção de vagas em destaque, que facilita o acesso dos estudantes a oportunidades de emprego e estágio. Os estudantes podem encontrar posições alinhadas a seus interesses, promovendo uma transição para o mercado.
               </p>
             </div>
           </div>
@@ -89,9 +89,6 @@ function Home() {
       <div className='container'>
         <Card />
       </div>
-
-
-
 
       <Footer />
     </>

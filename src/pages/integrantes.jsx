@@ -1,4 +1,3 @@
-
 import Gallery from '../components/Cards/perfil'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'

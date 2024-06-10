@@ -1,7 +1,6 @@
-import React from 'react';
 import Footer from '/src/components/Footer/index';
 import Nav from '/src/components/NavLogado/index';
-import semvagas from '../../../../imagem/SemVaga.jpg'
+import semvagas from '../../../../../dist/assets/SemVaga.jpg'
 import { Container } from '@chakra-ui/react';
 
 function Vagas() {
@@ -22,4 +21,4 @@ function Vagas() {
   );
 }
 
-export default Vagas;
+    export default Vagas;

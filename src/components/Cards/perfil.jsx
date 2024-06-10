@@ -4,7 +4,7 @@ import { LogoLinkedin } from "/src/components/SVGs/linkedin";
 
 function Profile ({ image, name, github, linkedin }) {
   return (
-    <div className='col-sm-6 col-md-4 col-lg-3 mb-4'>
+    <div className='col-sm-6 col-lg-3 mb-5'>
       <div className='card'>
         <img src={image} alt={name} className='card-img-top' />
         <div className='card-body'>
@@ -44,35 +44,35 @@ export default function Gallery () {
           image={img}
           name='Patrick Augusto'
           github='https://github.com/patrickaugusto'
-          linkedin=''
+          linkedin='https://www.linkedin.com/in/patrick-nascimento-86405a25b'
         />
 
         <Profile
           image={img}
           name='Igor Daniel'
-          github=''
-          linkedin=''
+          github='https://github.com/IgorDanielS'
+          linkedin='https://www.linkedin.com/in/igor-daniel-a73037211'
         />
 
         <Profile
           image={img}
           name='Danilo Santana'
-          github=''
-          linkedin=''
+          github='https://github.com/DaniloSantos31'
+          linkedin='https://www.linkedin.com/in/danilo-santana-b8595326b'
         />
 
         <Profile
           image={img}
           name='Antonio Rodrigues'
-          github=''
-          linkedin=''
+          github='https://github.com/netow2005'
+          linkedin='https://www.linkedin.com/in/antonio-rodrigues-de-carvalho-neto-523189262'
         />
 
         <Profile
           image={img}
           name='Bruna Roberta'
-          github=''
-          linkedin=''
+          github='https://github.com/brunartt'
+          linkedin='https://www.linkedin.com/in/bruna-roberta-a46541285'
         />
       </div>
     </div>

@@ -1,7 +1,7 @@
 import Nav from '/src/components/NavLogado/index'
 import Footer from '/src/components/Footer/index';
 import { Container } from '@chakra-ui/react';
-import ops from '../imagem/pagenotfound.jpg'
+import ops from '../imagem/pagenotfound.jpeg'
 
 function PageNotFound() {
   return (

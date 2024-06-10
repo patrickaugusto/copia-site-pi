@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <footer className={'footer ${colorMode === "light" ? "bg-light" : "bg-dark"}'}>
-      <div className="text-light py-3 py-md-5 py-xl-8">
+      <div className="text-light py-3 py-md-2 py-xl-6">
         <div className="container overflow-hidden p-0">
           <div className="row gy-3 gy-md-5 gy-xl-0 justify-content-center m-0">
             <div className="col-xs-12 col-xl-6 order-2 order-xl-1">
@@ -36,6 +36,14 @@ function Footer() {
           </div>
         </div>
       </div>
+
+      <style>
+        {`
+          .footer {
+            box-shadow: 0 -0.5rem 1rem rgba(0, 0, 0, 0.1);
+          }
+        `}
+      </style>
     </footer>
   );
 }
